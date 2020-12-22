@@ -609,7 +609,6 @@ TheLabMisc:Cheat(
                 game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MaxPotions.Visible = false
                 game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MaxBrewing.Visible = false
                 game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.Overlay.Visible = false
-                wait(1)
             end
         else
         end
