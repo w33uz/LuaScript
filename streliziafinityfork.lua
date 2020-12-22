@@ -246,6 +246,69 @@ Merchant:Cheat(
         merchantthree = false
 end)
 
+local MainOther = MainCategory:Sector("Other")
+
+local groupreward = false
+
+MainOther:Cheat(
+	"Checkbox", -- Type
+	"Group Reward", -- Name
+	function(State)
+    if groupreward == false then
+        groupreward = true
+            while groupreward and game:GetService("RunService").RenderStepped:wait() do
+                wait()
+                local A_1 = "CollectGroupReward"
+                local Event = game:GetService("ReplicatedStorage").NetworkRemoteFunction
+                Event:InvokeServer(A_1)
+                wait(3)
+            end
+        else
+        end
+        groupreward = false
+end)
+
+local spintowin = false
+
+MainOther:Cheat(
+	"Checkbox", -- Type
+	"Spin To Win", -- Name
+	function(State)
+    if spintowin == false then
+        spintowin = true
+            while spintowin and game:GetService("RunService").RenderStepped:wait() do
+                wait()
+                local A_1 = "SpinToWin"
+                local Event = game:GetService("ReplicatedStorage").NetworkRemoteEvent
+                Event:FireServer(A_1)
+                wait(3)
+            end
+        else
+        end
+        spintowin = false
+end)
+
+local dailyreward = false
+
+MainOther:Cheat(
+	"Checkbox", -- Type
+	"Daily Rewards", -- Name
+	function(State)
+    if dailyreward == false then
+        dailyreward = true
+            while dailyreward and game:GetService("RunService").RenderStepped:wait() do
+                wait()
+                local A_1 = "ClaimDailyReward"
+                local Event = game:GetService("ReplicatedStorage").NetworkRemoteEvent
+                Event:FireServer(A_1)
+                wait(3)
+            end
+        else
+        end
+        dailyreward = false
+end)
+
+
 -- Shard Category
 
 local ShardQuest = ShardCategory:Sector("Shard AutoQuest")
