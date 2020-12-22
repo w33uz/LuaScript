@@ -42,7 +42,7 @@ end)
 
 game.StarterGui:SetCore("SendNotification", {
    Title = "Strelizia Fork";
-   Text = "Script has loaded\nDiscord Server: https://discord.gg/pC8wTaj";
+   Text = "Finity version has loaded\nDiscord Server: https://discord.gg/pC8wTaj";
    Duration = "1";
 })
 
