@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/w3uz/Lua/main/finityuifork.lua))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/w3uz/Lua/main/finityuifork.lua"))()
 
 local ui = library.new(true, "Strelizia Fork | Finity version", UDim2.new(0, 600, 0, 350))
 ui.ChangeToggleKey(Enum.KeyCode.Insert)
