@@ -573,9 +573,11 @@ TheLab:Cheat(
         autocraftbubblepot = false
 end)
 
+local TheLabMisc = ShardCategory:Sector("The Lab Misc")
+
 local autocraftclaim = false
 
-TheLab:Cheat(
+TheLabMisc:Cheat(
 	"Checkbox", -- Type
 	"Autoclaim Potions", -- Name
 	function(State)
@@ -596,7 +598,7 @@ end)
 
 local antiuhoh = false
 
-TheLab:Cheat(
+TheLabMisc:Cheat(
 	"Checkbox", -- Type
 	"Anti Uh-Oh!", -- Name
 	function(State)
