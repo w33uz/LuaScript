@@ -1,6 +1,6 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/w3uz/Lua/main/finityuifork.lua"))()
 
-local ui = library.new(true, "Strelizia Fork | Finity version", UDim2.new(0, 600, 0, 350))
+local ui = library.new(true, "Strelizia Fork | Finity version | Close Keybind: Insert", UDim2.new(0, 500, 0, 350))
 ui.ChangeToggleKey(Enum.KeyCode.Insert)
 
 local HomeCategory = ui:Category("Home")
@@ -73,9 +73,8 @@ local CreditsSector = HomeCategory:Sector("Credits")
 
 CreditsSector:Cheat("Label", "UI Library: Finity")
 CreditsSector:Cheat("Label", "Script was made by weuz_#9020")
-CreditsSector:Cheat("Label", "Finity version may be laggy, also i'll update finity version after wally")
-CreditsSector:Cheat("Label", "Discord Invite: https://discord.gg/pC8wTaj")
-CreditsSector:Cheat("Button", "Copy Discord Invite", function()
+CreditsSector:Cheat("Label", "Finity version may be laggy")
+CreditsSector:Cheat("Button", "Discord Invite", function()
 	setclipboard("https://discord.gg/pC8wTaj")
 end, {text="Copy"})
 
