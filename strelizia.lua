@@ -6,7 +6,7 @@ local eggsbegan = game:GetService("Players").LocalPlayer.leaderstats["Eggs Opene
 
 game.StarterGui:SetCore("SendNotification", {
    Title = "Strelizia Fork";
-   Text = "Script has loaded\nDiscord Server: https://discord.gg/pC8wTaj";
+   Text = "Script has loaded\nDiscord Server: https://discord.gg/T97SmtTegD";
    Duration = "1";
 })
 
@@ -425,7 +425,7 @@ function scr()
     farm:Toggle("Autobuy First", {flag = 'merchantOne'})
     farm:Toggle("Autobuy Second", {flag = 'merchantTwo'})
     farm:Toggle("Autobuy Third", {flag = 'merchantThree'})
-	farm:Section("https://discord.gg/pC8wTaj")
+	farm:Section("https://discord.gg/T97SmtTegD")
 
 	
     local events = library:CreateWindow("Event")
