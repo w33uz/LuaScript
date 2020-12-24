@@ -55,7 +55,7 @@ end)
 
 game.StarterGui:SetCore("SendNotification", {
    Title = "Strelizia Fork";
-   Text = "Finity version has loaded\nDiscord Server: https://discord.gg/pC8wTaj";
+   Text = "Finity version has loaded\nDiscord Server: https://discord.gg/T97SmtTegD";
    Duration = "1";
 })
 
@@ -75,7 +75,7 @@ CreditsSector:Cheat("Label", "UI Library: Finity")
 CreditsSector:Cheat("Label", "Script was made by weuz_#9020")
 CreditsSector:Cheat("Label", "Finity version may be laggy")
 CreditsSector:Cheat("Button", "Discord Invite", function()
-	setclipboard("https://discord.gg/pC8wTaj")
+	setclipboard("https://discord.gg/T97SmtTegD")
 end, {text="Copy"})
 
 -- Main Category
